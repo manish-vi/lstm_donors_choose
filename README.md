@@ -4,7 +4,7 @@ DonorsChoose.org has funded over 1.1 million classroom requests through the supp
 #### Data Source: https://www.kaggle.com/donorschoose/io
 
 #### Attribute Information:
- - project_id: A unique identifier for the proposed project. Example: p036502 
+ - project_id: A unique identifier for the proposed project.
  - project_titlei: Title of the project.
  - project_grade_category: Grade level of students for which the project is targeted.
  - project_subject_categories: One or more (comma-separated) subject categories for the project.
@@ -25,13 +25,16 @@ You need to have installed following softwares and libraries before running this
 1. Python 3: https://www.python.org/downloads/
 2. Anaconda: It will install ipython notebook and most of the libraries which are needed like sklearn, pandas, seaborn, matplotlib, numpy and scipy: https://www.anaconda.com/download/
 
+## Getting Started
+Start by downloading the project and run "LSTM_DC_Models.ipynb" file in ipython-notebook.
+
 ## Libraries
 * __Gensim:__ Gensim is a Python library for topic modelling, document indexing and similarity retrieval with large corpora. Target audience is the natural language processing (NLP) and information retrieval (IR) community.
     * pip install gensim
     * conda install -c conda-forge gensim
 * __Keras:__ Keras is a high-level neural networks API, written in Python and capable of running on top of TensorFlow, CNTK, or Theano.
     * pip install Keras
-    * conda install -c conda-forge kera
+    * conda install -c conda-forge keras
 
 * __scikit-learn:__ scikit-learn is a Python module for machine learning built on top of SciPy.
     * pip install scikit-learn
